@@ -35,25 +35,23 @@ yoshio.speed = 100
 
 size = 150
 
+yoshio2 = rg.SimpleTurtle('turtle')
+yoshio2.pen = rg.Pen('blue', 10)
+yoshio2.speed = 75
+yoshio2.pen_up()
+yoshio2.go_to(rg.Point(-5,10)
+yoshio2.pen_down()
+
+for k in range (8):
+    yoshio2.draw_circle(100)
+    yoshio2.forward(10)
+    yoshio2.right(45)
+
 for k in range(50):
 
 
     yoshio.forward(75)
     yoshio.backward(75)
     yoshio.right(360/50)
-
-yoshio2 = rg.SimpleTurtle('turtle')
-yoshio2.pen = rg.Pen('blue', 10)
-yoshio2.speed = 10
-
-yoshio2.pen_up()
-yoshio2.forward(50)
-yoshio2.left(90)
-yoshio2.pen_down()
-
-for k in range (8):
-    yoshio.draw_circle(100)
-    yoshio.forward(10)
-    yoshio.right(45)
 
 window.close_on_mouse_click()
