@@ -39,7 +39,7 @@ yoshio2 = rg.SimpleTurtle('turtle')
 yoshio2.pen = rg.Pen('blue', 10)
 yoshio2.speed = 75
 yoshio2.pen_up()
-yoshio2.go_to(rg.Point(-5,10)
+yoshio2.go_to(rg.Point(-5,10))
 yoshio2.pen_down()
 
 for k in range (8):
