@@ -55,3 +55,5 @@ for k in range (8):
     yoshio.draw_circle(100)
     yoshio.forward(10)
     yoshio.right(45)
+
+window.close_on_mouse_click()
