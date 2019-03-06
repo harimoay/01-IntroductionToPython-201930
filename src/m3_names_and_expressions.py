@@ -50,7 +50,6 @@ print(math.sqrt(parttwo + partthree))
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 print(math.sqrt(2))
-print(2 ** 0.5)
 ###############################################################################
 # DONE: 5.
 #   Every object has a TYPE and a VALUE.  For example,
